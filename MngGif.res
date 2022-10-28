@@ -1,0 +1,175 @@
+module TypedBase = {
+  module Uint8Array = Js.TypedArray2.Uint8Array
+  module Uint16Array = Js.TypedArray2.Uint16Array
+  module Uint32Array = Js.TypedArray2.Uint32Array
+
+  type u8 = Uint8Array.elt
+  type u16 = Uint16Array.elt
+  type u32 = Uint32Array.elt
+
+  module Int = {
+    type t = int
+    @send
+    external asU8: int => u8 = "%identity"
+
+    @send
+    external asU16: int => u16 = "%identity"
+
+    @send
+    external asU32: int => u32 = "%identity"
+
+    @inline
+    let toU8 = v => v->land(0xff)->asU8
+
+    @inline
+    let toU16 = v => v->land(0xffff)->asU16
+
+    @inline
+    let toU32 = v => v->land(0xffffffff)->asU32
+  }
+
+  module U8 = {
+    type t = u8
+    @send external toInt: t => int = "%identity"
+    @send external toU16: t => u16 = "%identity"
+    @send external toU32: t => u32 = "%identity"
+  }
+
+  module U16 = {
+    type t = u16
+    @send external toInt: t => int = "%identity"
+    @send external toU32: t => u32 = "%identity"
+
+    @inline
+    let toU8 = v => v->toInt->Int.toU8
+  }
+
+  module U32 = {
+    type t = u32
+    @send external toInt: t => int = "%identity"
+
+    @inline
+    let toU16 = v => v->toInt->Int.toU16
+
+    @inline
+    let toU8 = v => v->toInt->Int.toU8
+  }
+}
+
+module ByteArray = {
+  module IntStringMap = {
+    type t
+    let make: unit => t = %raw(`
+    function () {
+      return new Map()
+    }
+  `)
+
+    @send
+    external set: (t, int, string) => unit = "set"
+
+    @send
+    external get: (t, int) => option<string> = "get"
+  }
+
+  type t = {
+    pageSize: int,
+    charMap: IntStringMap.t,
+    mutable cursor: int,
+    mutable page: int,
+    pages: array<TypedBase.Uint8Array.t>,
+  }
+
+  let init = () => {
+    let pageSize = 4096
+    let charMap = IntStringMap.make()
+    for i in 0 to 255 {
+      charMap->IntStringMap.set(i, i->Js.String2.fromCharCode)
+    }
+    {
+      pageSize,
+      charMap,
+      cursor: 0,
+      page: 0,
+      pages: [TypedBase.Uint8Array.fromLength(pageSize)],
+    }
+  }
+
+  let newPage = byteArray => {
+    byteArray.pages->Belt.Array.setUnsafe(
+      byteArray.page,
+      TypedBase.Uint8Array.fromLength(byteArray.pageSize),
+    )
+    byteArray.page = byteArray.page + 1
+    byteArray.cursor = 0
+  }
+
+  let writeByte = (byteArray, value) => {
+    if byteArray.cursor >= byteArray.pageSize {
+      byteArray->newPage
+    }
+    byteArray.pages
+    ->Belt.Array.getUnsafe(byteArray.page)
+    ->TypedBase.Uint8Array.unsafe_set(byteArray.cursor, value)
+    byteArray.cursor = byteArray.cursor + 1
+  }
+
+  let writeByteBack = (byteArray, value, backOffset) => {
+    let len = byteArray.page * byteArray.pageSize + byteArray.cursor - backOffset
+    let right = len->mod(byteArray.pageSize)
+    let page = (len - right) / byteArray.pageSize
+    if right > 0 {
+      byteArray.pages->Belt.Array.getUnsafe(page)->TypedBase.Uint8Array.unsafe_set(right - 1, value)
+    } else {
+      byteArray.pages
+      ->Belt.Array.getUnsafe(page - 1)
+      ->TypedBase.Uint8Array.unsafe_set(byteArray.pageSize - 1, value)
+    }
+  }
+
+  let writeUtf8Bytes = (byteArray, content) => {
+    let len = content->Js.String2.length
+    for i in 0 to len - 1 {
+      byteArray->writeByte(content->Js.String2.charCodeAt(i)->int_of_float)
+    }
+  }
+
+  let writeBytes = (byteArray, array, offset, length) => {
+    for i in 0 to offset + length - 1 {
+      byteArray->writeByte(array->TypedBase.Uint8Array.unsafe_get(i))
+    }
+  }
+
+  let writeShort = (byteArray, value) => {
+    byteArray->writeByte(value->land(0xff))
+    byteArray->writeByte(value->lsr(8)->land(0xff))
+  }
+
+  let mergeIntoSingleBuffer = byteArray => {
+    let len = (byteArray.pages->Belt.Array.length - 1) * byteArray.pageSize + byteArray.cursor
+    let buffer = TypedBase.Uint8Array.fromLength(len)
+    let bi = ref(0)
+    for pi in 0 to byteArray.pages->Belt.Array.length - 2 {
+      for i in 0 to byteArray.pageSize - 1 {
+        buffer->TypedBase.Uint8Array.unsafe_set(
+          bi.contents,
+          byteArray.pages->Belt.Array.getUnsafe(pi)->TypedBase.Uint8Array.unsafe_get(i),
+        )
+        bi := bi.contents + 1
+      }
+    }
+    let lastPage = byteArray.pages->Belt.Array.getUnsafe(byteArray.pages->Belt.Array.length - 1)
+    for i in 0 to byteArray.cursor - 1 {
+      buffer->TypedBase.Uint8Array.unsafe_set(
+        bi.contents,
+        lastPage->TypedBase.Uint8Array.unsafe_get(i),
+      )
+      bi := bi.contents + 1
+    }
+    buffer
+  }
+}
+
+module Color = {
+  type t = {r: TypedBase.U8.t}
+}

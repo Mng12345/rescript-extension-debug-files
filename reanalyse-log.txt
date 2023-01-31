@@ -1,0 +1,2696 @@
+
+[
+{
+  "name": "Warning Redundant Optional Argument",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/antd/Antd__Message.res",
+  "range": [19,0,27,235],
+  "message": "optional argument duration of function success is always supplied (2 calls)"
+},
+{
+  "name": "Warning Redundant Optional Argument",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/antd/Antd__Message.res",
+  "range": [7,0,15,229],
+  "message": "optional argument duration of function info is always supplied (2 calls)"
+},
+{
+  "name": "Warning Unused Argument",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/components/RotateCutRect.res",
+  "range": [196,0,493,9983],
+  "message": "optional argument updateCurrPos of function adjustCoordinate is never used"
+},
+{
+  "name": "Warning Unused Argument",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/components/RotateCutRect.res",
+  "range": [196,0,493,9983],
+  "message": "optional argument updateUnrotatedCurrPos of function adjustCoordinate is never used"
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/mng-gif/som-res/ImageSom.res",
+  "range": [71,4,71,16],
+  "message": "ImageSOM.t.netSize is a record label never used to read a value",
+  "annotate": { "line": 71, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/mng-gif/som-res/ImageSom.res",
+  "range": [103,2,112,292],
+  "message": "ImageSOM.make is never used",
+  "annotate": { "line": 103, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/mng-gif/som-res/ImageSom.res",
+  "range": [131,2,194,2672],
+  "message": "ImageSOM.train is never used",
+  "annotate": { "line": 131, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/mng-gif/som-res/ImageSom.res",
+  "range": [209,2,248,1518],
+  "message": "ImageSOM.test is never used",
+  "annotate": { "line": 209, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/Axios.res",
+  "range": [29,0,31,45],
+  "message": "get is never used",
+  "annotate": { "line": 29, "character": 0, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/CanvasDebugUtils.res",
+  "range": [9,13,9,32],
+  "message": "Ui.Frame.t.Canvas is a variant case which is never constructed",
+  "annotate": { "line": 9, "character": 13, "text": "| @dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/CanvasDebugUtils.res",
+  "range": [9,35,9,51],
+  "message": "Ui.Frame.t.FrameData is a variant case which is never constructed",
+  "annotate": { "line": 9, "character": 35, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/CanvasDebugUtils.res",
+  "range": [84,0,86,55],
+  "message": "show is never used",
+  "annotate": { "line": 84, "character": 0, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/CanvasUtils.res",
+  "range": [99,0,101,79],
+  "message": "preventContextMenuDefault is never used",
+  "annotate": { "line": 99, "character": 0, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/CanvasUtils.res",
+  "range": [228,0,243,386],
+  "message": "centerCoordinate is never used",
+  "annotate": { "line": 228, "character": 0, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/Cropperjs.res",
+  "range": [11,2,11,15],
+  "message": "detail.rotate is a record label never used to read a value",
+  "annotate": { "line": 11, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/Cropperjs.res",
+  "range": [19,2,19,20],
+  "message": "options.aspectRatio is a record label never used to read a value",
+  "annotate": { "line": 19, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/Cropperjs.res",
+  "range": [24,2,24,31],
+  "message": "options.viewMode is a record label never used to read a value",
+  "annotate": { "line": 24, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/Cropperjs.res",
+  "range": [25,2,25,21],
+  "message": "options.crop is a record label never used to read a value",
+  "annotate": { "line": 25, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/DebugUtils.resi",
+  "range": [0,0,0,29],
+  "message": "set is never used",
+  "annotate": { "line": 0, "character": 0, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/DomUtils.res",
+  "range": [8,0,17,584],
+  "message": "createCircle is never used",
+  "annotate": { "line": 8, "character": 0, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/DomUtils.res",
+  "range": [104,4,104,15],
+  "message": "MediaDevices.constraints.audio is a record label never used to read a value",
+  "annotate": { "line": 104, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/DomUtils.res",
+  "range": [105,4,105,15],
+  "message": "MediaDevices.constraints.video is a record label never used to read a value",
+  "annotate": { "line": 105, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/DomUtils.res",
+  "range": [133,18,133,33],
+  "message": "Blob.options.type is a record label never used to read a value",
+  "annotate": { "line": 133, "character": 18, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/DomUtils.res",
+  "range": [157,18,157,34],
+  "message": "MediaRecorder.options.mimeType is a record label never used to read a value",
+  "annotate": { "line": 157, "character": 18, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/DomUtils.res",
+  "range": [340,0,347,237],
+  "message": "removeChilds is never used",
+  "annotate": { "line": 340, "character": 0, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/DragUtils.res",
+  "range": [28,0,174,5421],
+  "message": "bindDrag is never used",
+  "annotate": { "line": 28, "character": 0, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/DragUtils.res",
+  "range": [176,0,181,177],
+  "message": "mousePosition is never used",
+  "annotate": { "line": 176, "character": 0, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/DragUtils.res",
+  "range": [183,0,188,125],
+  "message": "domPosition is never used",
+  "annotate": { "line": 183, "character": 0, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/DragUtils.res",
+  "range": [190,0,196,396],
+  "message": "setPosition is never used",
+  "annotate": { "line": 190, "character": 0, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/DragUtils.res",
+  "range": [198,0,217,437],
+  "message": "boundPosition is never used",
+  "annotate": { "line": 198, "character": 0, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/FFmpeg.res",
+  "range": [2,20,2,32],
+  "message": "processInfo.ratio is a record label never used to read a value",
+  "annotate": { "line": 2, "character": 20, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/FFmpeg.res",
+  "range": [19,0,21,140],
+  "message": "fsWrite is never used",
+  "annotate": { "line": 19, "character": 0, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/FFmpeg.res",
+  "range": [24,0,26,96],
+  "message": "fsRead is never used",
+  "annotate": { "line": 24, "character": 0, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/FFmpeg.res",
+  "range": [29,0,31,98],
+  "message": "fsDelete is never used",
+  "annotate": { "line": 29, "character": 0, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/FixWebmMetaInfo.res",
+  "range": [0,13,0,28],
+  "message": "mime.type is a record label never used to read a value",
+  "annotate": { "line": 0, "character": 13, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/FontFace.res",
+  "range": [4,2,4,14],
+  "message": "fontData.name is a record label never used to read a value",
+  "annotate": { "line": 4, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/FontUtils.res",
+  "range": [11,22,11,26],
+  "message": "fontType.WOFF is a variant case which is never constructed",
+  "annotate": { "line": 11, "character": 22, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/FontUtils.res",
+  "range": [11,29,11,34],
+  "message": "fontType.WOFF2 is a variant case which is never constructed",
+  "annotate": { "line": 11, "character": 29, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/Gif.res",
+  "range": [8,2,10,61],
+  "message": "Color.cmp is never used",
+  "annotate": { "line": 8, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/GifDecoder.res",
+  "range": [3,2,3,10],
+  "message": "frame.x is a record label never used to read a value",
+  "annotate": { "line": 3, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/GifDecoder.res",
+  "range": [4,2,4,10],
+  "message": "frame.y is a record label never used to read a value",
+  "annotate": { "line": 4, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/GifDecoder.res",
+  "range": [7,2,7,25],
+  "message": "frame.has_local_palette is a record label never used to read a value",
+  "annotate": { "line": 7, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/GifDecoder.res",
+  "range": [8,2,8,21],
+  "message": "frame.palette_offset is a record label never used to read a value",
+  "annotate": { "line": 8, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/GifDecoder.res",
+  "range": [9,2,9,19],
+  "message": "frame.palette_size is a record label never used to read a value",
+  "annotate": { "line": 9, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/GifDecoder.res",
+  "range": [10,2,10,18],
+  "message": "frame.data_offset is a record label never used to read a value",
+  "annotate": { "line": 10, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/GifDecoder.res",
+  "range": [11,2,11,18],
+  "message": "frame.data_length is a record label never used to read a value",
+  "annotate": { "line": 11, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/GifDecoder.res",
+  "range": [12,2,12,24],
+  "message": "frame.transparent_index is a record label never used to read a value",
+  "annotate": { "line": 12, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/GifDecoder.res",
+  "range": [13,2,13,18],
+  "message": "frame.interlaced is a record label never used to read a value",
+  "annotate": { "line": 13, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/GifDecoder.res",
+  "range": [14,2,14,12],
+  "message": "frame.delay is a record label never used to read a value",
+  "annotate": { "line": 14, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/GifDecoder.res",
+  "range": [15,2,15,15],
+  "message": "frame.disposal is a record label never used to read a value",
+  "annotate": { "line": 15, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/GifDecoder.res",
+  "range": [20,0,21,92],
+  "message": "make is never used",
+  "annotate": { "line": 20, "character": 0, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/GifDecoder.res",
+  "range": [30,0,32,161],
+  "message": "gifReaderLZWOutputIndexStream is never used",
+  "annotate": { "line": 30, "character": 0, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/GifSicle.res",
+  "range": [10,4,10,22],
+  "message": "Config.file.F_String is a variant case which is never constructed",
+  "annotate": { "line": 10, "character": 4, "text": "| @dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/GifSicle.res",
+  "range": [12,6,12,29],
+  "message": "Config.file.F_Blob is a variant case which is never constructed",
+  "annotate": { "line": 12, "character": 6, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/GifSicle.res",
+  "range": [13,6,13,49],
+  "message": "Config.file.F_ArrayBuffer is a variant case which is never constructed",
+  "annotate": { "line": 13, "character": 6, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/GifSicle.res",
+  "range": [53,4,53,31],
+  "message": "GifInfo.t.colorTableSize is a record label never used to read a value",
+  "annotate": { "line": 53, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/GifSicle.res",
+  "range": [54,4,54,17],
+  "message": "GifInfo.t.frameNum is a record label never used to read a value",
+  "annotate": { "line": 54, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/GifUtils.res",
+  "range": [2,2,2,12],
+  "message": "size.width is a record label never used to read a value",
+  "annotate": { "line": 2, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/GifUtils.res",
+  "range": [3,2,3,13],
+  "message": "size.height is a record label never used to read a value",
+  "annotate": { "line": 3, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/GifUtils.res",
+  "range": [175,0,250,3371],
+  "message": "toCanvas is never used",
+  "annotate": { "line": 175, "character": 0, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/GifUtils.res",
+  "range": [252,0,279,1024],
+  "message": "openGifFile is never used",
+  "annotate": { "line": 252, "character": 0, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/GifUtils__Types.res",
+  "range": [2,2,2,12],
+  "message": "gifFrame.id is a record label never used to read a value",
+  "annotate": { "line": 2, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/GifUtils__Types.res",
+  "range": [9,2,9,25],
+  "message": "gifInfo.frames is a record label never used to read a value",
+  "annotate": { "line": 9, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/GifUtils__Types.res",
+  "range": [10,2,10,18],
+  "message": "gifInfo.filename is a record label never used to read a value",
+  "annotate": { "line": 10, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/GifUtils__Types.res",
+  "range": [11,2,11,15],
+  "message": "gifInfo.gifId is a record label never used to read a value",
+  "annotate": { "line": 11, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/GifUtils__Types.res",
+  "range": [16,2,16,18],
+  "message": "imageInfo.filename is a record label never used to read a value",
+  "annotate": { "line": 16, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/GifUtils__Types.res",
+  "range": [17,2,17,12],
+  "message": "imageInfo.id is a record label never used to read a value",
+  "annotate": { "line": 17, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/GifUtils__Types.res",
+  "range": [22,2,22,12],
+  "message": "imageFrame.id is a record label never used to read a value",
+  "annotate": { "line": 22, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/GifUtils__Types.res",
+  "range": [25,16,25,32],
+  "message": "material.GifInfo is a variant case which is never constructed",
+  "annotate": { "line": 25, "character": 16, "text": "| @dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/GifUtils__Types.res",
+  "range": [25,35,25,55],
+  "message": "material.ImageInfo is a variant case which is never constructed",
+  "annotate": { "line": 25, "character": 35, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/GifUtils__Types.res",
+  "range": [27,21,27,39],
+  "message": "materialFrame.GifFrame is a variant case which is never constructed",
+  "annotate": { "line": 27, "character": 21, "text": "| @dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/GifUtils__Types.res",
+  "range": [27,42,27,64],
+  "message": "materialFrame.ImageFrame is a variant case which is never constructed",
+  "annotate": { "line": 27, "character": 42, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/GifUtils__Types.res",
+  "range": [30,2,30,14],
+  "message": "size.width is a record label never used to read a value",
+  "annotate": { "line": 30, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/GifUtils__Types.res",
+  "range": [31,2,31,15],
+  "message": "size.height is a record label never used to read a value",
+  "annotate": { "line": 31, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/GifUtils__Types.res",
+  "range": [35,2,35,12],
+  "message": "intSize.width is a record label never used to read a value",
+  "annotate": { "line": 35, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/GifUtils__Types.res",
+  "range": [36,2,36,13],
+  "message": "intSize.height is a record label never used to read a value",
+  "annotate": { "line": 36, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/GlobalPageLoading.res",
+  "range": [1,2,1,20],
+  "message": "loadingResult.hide is a record label never used to read a value",
+  "annotate": { "line": 1, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/GlobalPageLoading.res",
+  "range": [2,2,2,28],
+  "message": "loadingResult.setProgress is a record label never used to read a value",
+  "annotate": { "line": 2, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/GlobalPageLoading.res",
+  "range": [13,0,33,635],
+  "message": "loading is never used",
+  "annotate": { "line": 13, "character": 0, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value With Side Effects",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/IndexedDBUtils.res",
+  "range": [10,0,14,191],
+  "message": "transaction is never used and could have side effects"
+},
+{
+  "name": "Warning Dead Value With Side Effects",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/IndexedDBUtils.res",
+  "range": [16,0,20,147],
+  "message": "keyrange is never used and could have side effects"
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/IndexedDBUtils.res",
+  "range": [156,0,163,235],
+  "message": "update is never used",
+  "annotate": { "line": 156, "character": 0, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/IndexedDBUtils.res",
+  "range": [165,0,172,231],
+  "message": "delete is never used",
+  "annotate": { "line": 165, "character": 0, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/InteractJs.res",
+  "range": [4,4,4,16],
+  "message": "InteractJs.listenerEvent.pageX is a record label never used to read a value",
+  "annotate": { "line": 4, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/InteractJs.res",
+  "range": [5,4,5,16],
+  "message": "InteractJs.listenerEvent.pageY is a record label never used to read a value",
+  "annotate": { "line": 5, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/InteractJs.res",
+  "range": [8,4,8,13],
+  "message": "InteractJs.listenerEvent.dy is a record label never used to read a value",
+  "annotate": { "line": 8, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/InteractJs.res",
+  "range": [11,4,11,31],
+  "message": "InteractJs.listeners.move is a record label never used to read a value",
+  "annotate": { "line": 11, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/InteractJs.res",
+  "range": [12,4,12,32],
+  "message": "InteractJs.listeners.start is a record label never used to read a value",
+  "annotate": { "line": 12, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/InteractJs.res",
+  "range": [13,4,13,30],
+  "message": "InteractJs.listeners.end is a record label never used to read a value",
+  "annotate": { "line": 13, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/InteractJs.res",
+  "range": [17,4,17,16],
+  "message": "InteractJs.domRect.width is a record label never used to read a value",
+  "annotate": { "line": 17, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/InteractJs.res",
+  "range": [18,4,18,17],
+  "message": "InteractJs.domRect.height is a record label never used to read a value",
+  "annotate": { "line": 18, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/InteractJs.res",
+  "range": [19,4,19,15],
+  "message": "InteractJs.domRect.left is a record label never used to read a value",
+  "annotate": { "line": 19, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/InteractJs.res",
+  "range": [20,4,20,14],
+  "message": "InteractJs.domRect.top is a record label never used to read a value",
+  "annotate": { "line": 20, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value With Side Effects",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/JsUtils.res",
+  "range": [0,0,4,83],
+  "message": "mode is never used and could have side effects"
+},
+{
+  "name": "Warning Dead Value With Side Effects",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/JsUtils.res",
+  "range": [13,2,17,108],
+  "message": "FileReader.getStringResult is never used and could have side effects"
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/JsUtils.res",
+  "range": [90,4,90,14],
+  "message": "Iterator.value.done is a record label never used to read a value",
+  "annotate": { "line": 90, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/JsUtils.res",
+  "range": [91,4,91,13],
+  "message": "Iterator.value.value is a record label never used to read a value",
+  "annotate": { "line": 91, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/LocalStorage.res",
+  "range": [9,0,14,104],
+  "message": "localStorageExist is never used",
+  "annotate": { "line": 9, "character": 0, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/MngRxState.res",
+  "range": [5,2,5,19],
+  "message": "atomStateConfig.initState is a record label never used to read a value",
+  "annotate": { "line": 5, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/MngRxState.res",
+  "range": [6,2,6,13],
+  "message": "atomStateConfig.key is a record label never used to read a value",
+  "annotate": { "line": 6, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/MngRxState.res",
+  "range": [7,2,7,21],
+  "message": "atomStateConfig.useTimeTravel is a record label never used to read a value",
+  "annotate": { "line": 7, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/MngRxState.res",
+  "range": [10,32,10,52],
+  "message": "behaviorSubject.next is a record label never used to read a value",
+  "annotate": { "line": 10, "character": 32, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/MngRxState.res",
+  "range": [25,2,25,21],
+  "message": "timeTravelState.canGoToFuture is a record label never used to read a value",
+  "annotate": { "line": 25, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/MngRxState.res",
+  "range": [26,2,26,19],
+  "message": "timeTravelState.canGoToPast is a record label never used to read a value",
+  "annotate": { "line": 26, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/NodeMailer.res",
+  "range": [7,4,7,16],
+  "message": "Transport.sendMailOptions.from is a record label never used to read a value",
+  "annotate": { "line": 7, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/NodeMailer.res",
+  "range": [8,4,8,14],
+  "message": "Transport.sendMailOptions.to is a record label never used to read a value",
+  "annotate": { "line": 8, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/NodeMailer.res",
+  "range": [9,4,9,19],
+  "message": "Transport.sendMailOptions.subject is a record label never used to read a value",
+  "annotate": { "line": 9, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/NodeMailer.res",
+  "range": [10,4,10,16],
+  "message": "Transport.sendMailOptions.text is a record label never used to read a value",
+  "annotate": { "line": 10, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/Nodejs.res",
+  "range": [38,12,38,21],
+  "message": "Stats.t.size is a record label never used to read a value",
+  "annotate": { "line": 38, "character": 12, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/Observer.res",
+  "range": [3,2,3,15],
+  "message": "freeOption.event is a record label never used to read a value",
+  "annotate": { "line": 3, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/Observer.res",
+  "range": [4,2,4,26],
+  "message": "freeOption.handler is a record label never used to read a value",
+  "annotate": { "line": 4, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/ParseFree.res",
+  "range": [0,0,22,670],
+  "message": "isFree is never used",
+  "annotate": { "line": 0, "character": 0, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/Playground.res",
+  "range": [2,0,2,44],
+  "message": "s is never used",
+  "annotate": { "line": 2, "character": 0, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/PointerUtils.res",
+  "range": [0,14,0,39],
+  "message": "t.value is a record label never used to read a value",
+  "annotate": { "line": 0, "character": 14, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/PointerUtils.res",
+  "range": [2,0,4,54],
+  "message": "make is never used",
+  "annotate": { "line": 2, "character": 0, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/PointerUtils.res",
+  "range": [6,0,10,50],
+  "message": "empty is never used",
+  "annotate": { "line": 6, "character": 0, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/SharedTypes.res",
+  "range": [17,4,17,12],
+  "message": "Position.fPosition.x is a record label never used to read a value",
+  "annotate": { "line": 17, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/SharedTypes.res",
+  "range": [18,4,18,12],
+  "message": "Position.fPosition.y is a record label never used to read a value",
+  "annotate": { "line": 18, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value With Side Effects",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/SharedTypes.res",
+  "range": [31,0,35,98],
+  "message": "unimplemented is never used and could have side effects"
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/VideoUtils.res",
+  "range": [5,4,5,18],
+  "message": "Video.videoTrackSetting.frameRate is a record label never used to read a value",
+  "annotate": { "line": 5, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/VideoUtils.res",
+  "range": [6,4,6,15],
+  "message": "Video.videoTrackSetting.height is a record label never used to read a value",
+  "annotate": { "line": 6, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/VideoUtils.res",
+  "range": [7,4,7,14],
+  "message": "Video.videoTrackSetting.width is a record label never used to read a value",
+  "annotate": { "line": 7, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/VideoUtils.res",
+  "range": [300,0,302,211],
+  "message": "openVideo is never used",
+  "annotate": { "line": 300, "character": 0, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/WebGLUtils.res",
+  "range": [9,2,9,14],
+  "message": "texSource.Image is a variant case which is never constructed",
+  "annotate": { "line": 9, "character": 2, "text": "| @dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/WebGLUtils.res",
+  "range": [9,39,9,57],
+  "message": "texSource.Video is a variant case which is never constructed",
+  "annotate": { "line": 9, "character": 39, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/WebGLUtils.res",
+  "range": [9,60,9,89],
+  "message": "texSource.ImageData is a variant case which is never constructed",
+  "annotate": { "line": 9, "character": 60, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/WebGLUtils.res",
+  "range": [217,11,217,14],
+  "message": "ReadPixelsFormat.t.RGB is a variant case which is never constructed",
+  "annotate": { "line": 217, "character": 11, "text": "| @dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/antd/Antd__Form.res",
+  "range": [1,2,1,11],
+  "message": "span.span is a record label never used to read a value",
+  "annotate": { "line": 1, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/antd/Antd__Form.res",
+  "range": [2,2,2,13],
+  "message": "span.offset is a record label never used to read a value",
+  "annotate": { "line": 2, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/antd/Antd__Form.res",
+  "range": [28,0,33,117],
+  "message": "getForm is never used",
+  "annotate": { "line": 28, "character": 0, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/antd/Antd__Form.res",
+  "range": [57,4,57,18],
+  "message": "Form__Item.rule.required is a record label never used to read a value",
+  "annotate": { "line": 57, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/antd/Antd__Form.res",
+  "range": [58,4,58,19],
+  "message": "Form__Item.rule.message is a record label never used to read a value",
+  "annotate": { "line": 58, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/components/AlipayComponent.res",
+  "range": [3,4,3,20],
+  "message": "VideoToGifPay.feedbackForm.badPoint is a record label never used to read a value",
+  "annotate": { "line": 3, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/components/AlipayComponent.res",
+  "range": [4,4,4,21],
+  "message": "VideoToGifPay.feedbackForm.goodPoint is a record label never used to read a value",
+  "annotate": { "line": 4, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/components/AlipayComponent.res",
+  "range": [137,2,142,145],
+  "message": "PayInfo.fromJson is never used",
+  "annotate": { "line": 137, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/components/AlipayComponent.res",
+  "range": [220,4,291,2435],
+  "message": "CheckPayInfo.VideoToGif.checkHasAlreadyPayedForWeek is never used",
+  "annotate": { "line": 220, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/components/AlipayComponent.res",
+  "range": [293,4,306,432],
+  "message": "CheckPayInfo.VideoToGif.subtractFreeTimes is never used",
+  "annotate": { "line": 293, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/components/AlipayComponent.res",
+  "range": [310,4,337,1015],
+  "message": "CheckPayInfo.GifEditor.checkHasAlreadyPayedForWeek is never used",
+  "annotate": { "line": 310, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/components/AlipayComponent.res",
+  "range": [340,2,359,579],
+  "message": "CheckPayInfo.checkFreeToken is never used",
+  "annotate": { "line": 340, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/components/AlipayComponent.res",
+  "range": [370,12,370,24],
+  "message": "FeedbackInfo.t.time is a record label never used to read a value",
+  "annotate": { "line": 370, "character": 12, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/components/CutRect.res",
+  "range": [138,0,156,704],
+  "message": "calculateCutCoordinate is never used",
+  "annotate": { "line": 138, "character": 0, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/components/Cutter__Backup.res",
+  "range": [1254,0,1275,653],
+  "message": "make is never used",
+  "annotate": { "line": 1254, "character": 0, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/components/RotateCutRect.res",
+  "range": [148,0,172,844],
+  "message": "calculateCutCoordinate is never used",
+  "annotate": { "line": 148, "character": 0, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/components/RotateCutRect.res",
+  "range": [188,0,190,66],
+  "message": "deg10ToPI is never used",
+  "annotate": { "line": 188, "character": 0, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/components/RotateCutRect.res",
+  "range": [192,0,194,66],
+  "message": "degPITo10 is never used",
+  "annotate": { "line": 192, "character": 0, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/components/TextButton.res",
+  "range": [2,18,2,21],
+  "message": "buttonSize.Big is a variant case which is never constructed",
+  "annotate": { "line": 2, "character": 18, "text": "| @dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/components/UpdateLog.res",
+  "range": [0,0,0,56],
+  "message": "styles is never used",
+  "annotate": { "line": 0, "character": 0, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/components/UpdateLog.res",
+  "range": [3,0,5,32],
+  "message": "make is never used",
+  "annotate": { "line": 3, "character": 0, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/components/UsageForm.res",
+  "range": [2,0,4,31],
+  "message": "make is never used",
+  "annotate": { "line": 2, "character": 0, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/components/animationCompoents/AnimationComponents__Types.res",
+  "range": [0,28,0,32],
+  "message": "animationType.Zoom is a variant case which is never constructed",
+  "annotate": { "line": 0, "character": 28, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/components/animationCompoents/AnimationComponents__Types.res",
+  "range": [0,35,0,42],
+  "message": "animationType.Twinkle is a variant case which is never constructed",
+  "annotate": { "line": 0, "character": 35, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/components/animationCompoents/AnimationComponents__Types.res",
+  "range": [0,45,0,50],
+  "message": "animationType.Shake is a variant case which is never constructed",
+  "annotate": { "line": 0, "character": 45, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/components/animationCompoents/AnimationComponents__Types.res",
+  "range": [0,53,0,66],
+  "message": "animationType.GradualChange is a variant case which is never constructed",
+  "annotate": { "line": 0, "character": 53, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/components/animationCompoents/AnimationComponents__Types.res",
+  "range": [0,79,0,85],
+  "message": "animationType.Typing is a variant case which is never constructed",
+  "annotate": { "line": 0, "character": 79, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/font-compress/FontCompress.res",
+  "range": [1,0,23,628],
+  "message": "make is never used",
+  "annotate": { "line": 1, "character": 0, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/gif-compress/GifCompress.res",
+  "range": [4,4,21,1356],
+  "message": "OpenGif.make is never used",
+  "annotate": { "line": 4, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/gif-compress/GifCompress.res",
+  "range": [25,29,25,39],
+  "message": "WidthDialog.widthFormProps.width is a record label never used to read a value",
+  "annotate": { "line": 25, "character": 29, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/gif-compress/GifCompress.res",
+  "range": [335,26,335,35],
+  "message": "SizeDialog.sizeFormProps.size is a record label never used to read a value",
+  "annotate": { "line": 335, "character": 26, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/gif-compress/GifCompress__State.res",
+  "range": [35,28,35,49],
+  "message": "GifInfo.compressedGifInfo.data is a record label never used to read a value",
+  "annotate": { "line": 35, "character": 28, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/gif-compress/GifCompress__State.res",
+  "range": [61,4,61,46],
+  "message": "CompressHistory.item.targetCompressedSize is a record label never used to read a value",
+  "annotate": { "line": 61, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/gif-editor/GifEditorObservers.res",
+  "range": [4,4,4,17],
+  "message": "Observer.freeOption.event is a record label never used to read a value",
+  "annotate": { "line": 4, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/gif-editor/GifEditorObservers.res",
+  "range": [5,4,5,28],
+  "message": "Observer.freeOption.handler is a record label never used to read a value",
+  "annotate": { "line": 5, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/gif-editor/GifEditorObservers.res",
+  "range": [40,2,42,92],
+  "message": "MaterialZone.fireCloseRightMenu is never used",
+  "annotate": { "line": 40, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/gif-editor/GifEditorObservers.res",
+  "range": [52,2,54,126],
+  "message": "MaterialZone.fireAddMaterial is never used",
+  "annotate": { "line": 52, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/gif-editor/GifEditorObservers.res",
+  "range": [75,2,77,159],
+  "message": "Editor.onDeleteFrames is never used",
+  "annotate": { "line": 75, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/gif-editor/GifEditorObservers.res",
+  "range": [78,2,80,128],
+  "message": "Editor.fireDeleteFrames is never used",
+  "annotate": { "line": 78, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/gif-editor/GifEditorObservers.res",
+  "range": [81,2,83,153],
+  "message": "Editor.onAddMaterial is never used",
+  "annotate": { "line": 81, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/gif-editor/GifEditorObservers.res",
+  "range": [84,2,86,126],
+  "message": "Editor.fireAddMaterial is never used",
+  "annotate": { "line": 84, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/gif-editor/GifEditorObservers.res",
+  "range": [87,2,89,150],
+  "message": "Editor.onActiveFrame is never used",
+  "annotate": { "line": 87, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/gif-editor/GifEditorObservers.res",
+  "range": [90,2,92,117],
+  "message": "Editor.fireActiveFrame is never used",
+  "annotate": { "line": 90, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/gif-editor/GifEditorObservers.res",
+  "range": [93,2,95,154],
+  "message": "Editor.onUnactiveFrame is never used",
+  "annotate": { "line": 93, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/gif-editor/GifEditorObservers.res",
+  "range": [96,2,98,121],
+  "message": "Editor.fireUnactiveFrame is never used",
+  "annotate": { "line": 96, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/gif-editor/GifEditorObservers.res",
+  "range": [99,2,101,175],
+  "message": "Editor.onAddFramesToMaterial is never used",
+  "annotate": { "line": 99, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/gif-editor/GifEditorObservers.res",
+  "range": [102,2,104,144],
+  "message": "Editor.fireAddFramesToMaterial is never used",
+  "annotate": { "line": 102, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/gif-editor/GifEditorObservers.res",
+  "range": [105,2,107,175],
+  "message": "Editor.onUnactiveFrameExtraction is never used",
+  "annotate": { "line": 105, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/gif-editor/GifEditorObservers.res",
+  "range": [108,2,110,142],
+  "message": "Editor.fireUnactiveFrameExtraction is never used",
+  "annotate": { "line": 108, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/gif-editor/GifEditorObservers.res",
+  "range": [111,2,113,171],
+  "message": "Editor.onActiveFrameExtraction is never used",
+  "annotate": { "line": 111, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/gif-editor/GifEditorObservers.res",
+  "range": [114,2,116,138],
+  "message": "Editor.fireActiveFrameExtraction is never used",
+  "annotate": { "line": 114, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/gif-editor/GifEditorObservers.res",
+  "range": [117,2,119,159],
+  "message": "Editor.onActiveMaterial is never used",
+  "annotate": { "line": 117, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/gif-editor/GifEditorObservers.res",
+  "range": [120,2,122,132],
+  "message": "Editor.fireActiveMaterial is never used",
+  "annotate": { "line": 120, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/gif-editor/GifEditorObservers.res",
+  "range": [123,2,125,163],
+  "message": "Editor.onUnactiveMaterial is never used",
+  "annotate": { "line": 123, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/gif-editor/GifEditorObservers.res",
+  "range": [126,2,128,136],
+  "message": "Editor.fireUnactiveMaterial is never used",
+  "annotate": { "line": 126, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/gif-editor/GifEditorObservers.res",
+  "range": [129,2,131,177],
+  "message": "Editor.onActiveFramesOfMaterial is never used",
+  "annotate": { "line": 129, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/gif-editor/GifEditorObservers.res",
+  "range": [132,2,134,150],
+  "message": "Editor.fireActiveFramesOfMaterial is never used",
+  "annotate": { "line": 132, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/gif-editor/GifEditorObservers.res",
+  "range": [135,2,137,181],
+  "message": "Editor.onUnactiveFramesOfMaterial is never used",
+  "annotate": { "line": 135, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/gif-editor/GifEditorObservers.res",
+  "range": [138,2,140,154],
+  "message": "Editor.fireUnactiveFramesOfMaterial is never used",
+  "annotate": { "line": 138, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/gif-editor/GifEditorState.res",
+  "range": [7,8,7,24],
+  "message": "Frame.Action.CutInfo.t.cutType is a record label never used to read a value",
+  "annotate": { "line": 7, "character": 8, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/gif-editor/GifEditorState.res",
+  "range": [25,4,25,14],
+  "message": "Frame.gifFrame.id is a record label never used to read a value",
+  "annotate": { "line": 25, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/gif-editor/GifEditorState.res",
+  "range": [35,4,35,14],
+  "message": "Frame.pictureFrame.id is a record label never used to read a value",
+  "annotate": { "line": 35, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/gif-editor/GifEditorState.res",
+  "range": [106,4,106,26],
+  "message": "Editor.material.frames is a record label never used to read a value",
+  "annotate": { "line": 106, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/gif-editor/GifEditorState.res",
+  "range": [120,4,120,14],
+  "message": "Editor.exportSetting.width is a record label never used to read a value",
+  "annotate": { "line": 120, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/gif-editor/GifEditorState.res",
+  "range": [121,4,121,23],
+  "message": "Editor.exportSetting.height is a record label never used to read a value",
+  "annotate": { "line": 121, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value With Side Effects",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/gif-editor/GifEditorState.res",
+  "range": [123,2,131,176],
+  "message": "Editor.exportSetting is never used and could have side effects"
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/gif-editor/GifEditorUtils.res",
+  "range": [0,0,99,3905],
+  "message": "renderCanvas is never used",
+  "annotate": { "line": 0, "character": 0, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/gif-editor/GifEditorUtils.res",
+  "range": [294,0,311,548],
+  "message": "generateEditorMaterialAndFrames is never used",
+  "annotate": { "line": 294, "character": 0, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/gif-editor/GifEditorUtils.res",
+  "range": [788,4,788,25],
+  "message": "TimeMachine.t.canBack is a record label never used to read a value",
+  "annotate": { "line": 788, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/gif-editor/GifEditorUtils.res",
+  "range": [789,4,789,28],
+  "message": "TimeMachine.t.canForward is a record label never used to read a value",
+  "annotate": { "line": 789, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/gif-editor/components/GifEditor_Cutter.res",
+  "range": [13,2,13,22],
+  "message": "pointElement.pointType is a record label never used to read a value",
+  "annotate": { "line": 13, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/gif-editor/components/GifEditor_Cutter.res",
+  "range": [14,2,14,22],
+  "message": "pointElement.element is a record label never used to read a value",
+  "annotate": { "line": 14, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/gif-editor/components/GifEditor_Cutter.res",
+  "range": [18,2,18,30],
+  "message": "rectElement.rect is a record label never used to read a value",
+  "annotate": { "line": 18, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/gif-editor/components/GifEditor_Cutter.res",
+  "range": [19,2,19,22],
+  "message": "rectElement.element is a record label never used to read a value",
+  "annotate": { "line": 19, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/gif-editor/components/GifEditor_Cutter.res",
+  "range": [23,2,23,29],
+  "message": "cutBox.points is a record label never used to read a value",
+  "annotate": { "line": 23, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/gif-editor/components/GifEditor_Cutter.res",
+  "range": [24,2,24,19],
+  "message": "cutBox.rect is a record label never used to read a value",
+  "annotate": { "line": 24, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/gif-editor/components/GifEditor_Cutter.res",
+  "range": [96,0,99,233],
+  "message": "resetCanvasCtx2d is never used",
+  "annotate": { "line": 96, "character": 0, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/gif-editor/components/GifEditor_Cutter.res",
+  "range": [101,0,116,751],
+  "message": "calcVerticlesByRect is never used",
+  "annotate": { "line": 101, "character": 0, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/gif-editor/components/GifEditor_Cutter.res",
+  "range": [130,0,133,155],
+  "message": "drawCutBox is never used",
+  "annotate": { "line": 130, "character": 0, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/gif-editor/components/GifEditor_Cutter.res",
+  "range": [146,0,157,234],
+  "message": "calculateCoordinateByCenterAndSize is never used",
+  "annotate": { "line": 146, "character": 0, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/gif-editor/components/GifEditor_Editor.res",
+  "range": [374,16,374,26],
+  "message": "FrameDelayDialog.delay.delay is a record label never used to read a value",
+  "annotate": { "line": 374, "character": 16, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/gif/MngGif.res",
+  "range": [157,4,166,500],
+  "message": "ColorMap.Key.equal is never used",
+  "annotate": { "line": 157, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/gif/MngGif.res",
+  "range": [189,4,196,375],
+  "message": "ColorMap.Key.make is never used",
+  "annotate": { "line": 189, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/gif/MngGif.res",
+  "range": [234,2,236,96],
+  "message": "ColorMap.set is never used",
+  "annotate": { "line": 234, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/gif/MngGif.res",
+  "range": [238,2,240,113],
+  "message": "ColorMap.get is never used",
+  "annotate": { "line": 238, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/gif/MngGif.res",
+  "range": [242,2,244,92],
+  "message": "ColorMap.remove is never used",
+  "annotate": { "line": 242, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/gif/MngGif.res",
+  "range": [246,2,248,121],
+  "message": "ColorMap.keys is never used",
+  "annotate": { "line": 246, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/gif/MngGif.res",
+  "range": [250,2,252,82],
+  "message": "ColorMap.values is never used",
+  "annotate": { "line": 250, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/gif/MngGif.res",
+  "range": [254,2,256,153],
+  "message": "ColorMap.entries is never used",
+  "annotate": { "line": 254, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/gif/MngGif.res",
+  "range": [267,4,271,206],
+  "message": "Gif.Color._equal is never used",
+  "annotate": { "line": 267, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/gif/MngGif.res",
+  "range": [309,23,309,32],
+  "message": "Gif.UserInputFlag.t.NeedInput is a variant case which is never constructed",
+  "annotate": { "line": 309, "character": 23, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/gif/MngGif.res",
+  "range": [338,6,338,30],
+  "message": "Gif.Frame.t.paletteSize is a record label never used to read a value",
+  "annotate": { "line": 338, "character": 6, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/gif/MngGif.res",
+  "range": [340,6,340,29],
+  "message": "Gif.Frame.t.dataLength is a record label never used to read a value",
+  "annotate": { "line": 340, "character": 6, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/gif/MngGif.res",
+  "range": [342,6,342,30],
+  "message": "Gif.Frame.t.interlaced is a record label never used to read a value",
+  "annotate": { "line": 342, "character": 6, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/gif/MngGif.res",
+  "range": [1267,10,1267,23],
+  "message": "Gif.LZW.Decoder.Codes.code.leftCode is a record label never used to read a value",
+  "annotate": { "line": 1267, "character": 10, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/gif/MngGif.res",
+  "range": [1754,6,1754,51],
+  "message": "Gif.Encoder.EasyUse.setUseGlobalPalette is never used",
+  "annotate": { "line": 1754, "character": 6, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/gif/MngGif.res",
+  "range": [1779,6,1779,34],
+  "message": "Gif.Decoder.t.backgroundIndex is a record label never used to read a value",
+  "annotate": { "line": 1779, "character": 6, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/gif/MngGif.res",
+  "range": [1784,6,1784,32],
+  "message": "Gif.Decoder.t.gifType is a record label never used to read a value",
+  "annotate": { "line": 1784, "character": 6, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/gif/MngGif.res",
+  "range": [1785,6,1785,28],
+  "message": "Gif.Decoder.t.loopCount is a record label never used to read a value",
+  "annotate": { "line": 1785, "character": 6, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/gif/MngGif.res",
+  "range": [2342,4,2342,20],
+  "message": "Gif.t.filename is a record label never used to read a value",
+  "annotate": { "line": 2342, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/image-enhance/ImageEnhance__State.res",
+  "range": [1,2,1,36],
+  "message": "imageInfo.image is a record label never used to read a value",
+  "annotate": { "line": 1, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/image-enhance/ImageEnhance__State.res",
+  "range": [2,2,2,12],
+  "message": "imageInfo.width is a record label never used to read a value",
+  "annotate": { "line": 2, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/image-enhance/ImageEnhance__State.res",
+  "range": [3,2,3,13],
+  "message": "imageInfo.height is a record label never used to read a value",
+  "annotate": { "line": 3, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value With Side Effects",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/image-enhance/ImageEnhance__State.res",
+  "range": [6,0,9,100],
+  "message": "images is never used and could have side effects"
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/overlayscrollbar/OverlayScrollBar.res",
+  "range": [9,4,9,22],
+  "message": "Hooks.params.options is a record label never used to read a value",
+  "annotate": { "line": 9, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/overlayscrollbar/OverlayScrollBar.res",
+  "range": [10,4,10,20],
+  "message": "Hooks.params.element is a record label never used to read a value",
+  "annotate": { "line": 10, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/overlayscrollbar/OverlayScrollBar.res",
+  "range": [11,4,11,20],
+  "message": "Hooks.params.events is a record label never used to read a value",
+  "annotate": { "line": 11, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/overlayscrollbar/OverlayScrollBar.res",
+  "range": [12,4,12,16],
+  "message": "Hooks.params.defer is a record label never used to read a value",
+  "annotate": { "line": 12, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/overlayscrollbar/OverlayScrollBar.res",
+  "range": [21,8,21,18],
+  "message": "Hooks.Instance.ViewPort.options.left is a record label never used to read a value",
+  "annotate": { "line": 21, "character": 8, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/overlayscrollbar/OverlayScrollBar.res",
+  "range": [22,8,22,17],
+  "message": "Hooks.Instance.ViewPort.options.top is a record label never used to read a value",
+  "annotate": { "line": 22, "character": 8, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/overlayscrollbar/OverlayScrollBar.res",
+  "range": [23,8,23,33],
+  "message": "Hooks.Instance.ViewPort.options.behavior is a record label never used to read a value",
+  "annotate": { "line": 23, "character": 8, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/picture-editor/PictureEditor.res",
+  "range": [2,2,6,199],
+  "message": "CutDialog.make is never used",
+  "annotate": { "line": 2, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/picture-editor/PictureEditor.res",
+  "range": [11,4,11,14],
+  "message": "NormalEidtor.formType.width is a record label never used to read a value",
+  "annotate": { "line": 11, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/picture-editor/PictureEditor.res",
+  "range": [12,4,12,15],
+  "message": "NormalEidtor.formType.height is a record label never used to read a value",
+  "annotate": { "line": 12, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/picture-editor/PictureEditor.res",
+  "range": [13,4,13,19],
+  "message": "NormalEidtor.formType.lockRatio is a record label never used to read a value",
+  "annotate": { "line": 13, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/picture-editor/PictureEditor.res",
+  "range": [466,2,468,83],
+  "message": "CutEditor.make is never used",
+  "annotate": { "line": 466, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/picture-editor/PictureEditor__State.res",
+  "range": [8,4,8,13],
+  "message": "State.cutArea.left is a record label never used to read a value",
+  "annotate": { "line": 8, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/picture-editor/PictureEditor__State.res",
+  "range": [9,4,9,12],
+  "message": "State.cutArea.top is a record label never used to read a value",
+  "annotate": { "line": 9, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/picture-editor/PictureEditor__State.res",
+  "range": [10,4,10,14],
+  "message": "State.cutArea.width is a record label never used to read a value",
+  "annotate": { "line": 10, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/picture-editor/PictureEditor__State.res",
+  "range": [11,4,11,15],
+  "message": "State.cutArea.height is a record label never used to read a value",
+  "annotate": { "line": 11, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/picture-editor/PictureEditor__State.res",
+  "range": [18,4,18,28],
+  "message": "State.targetImageInfo.cutArea is a record label never used to read a value",
+  "annotate": { "line": 18, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/picture-editor/PictureScale.res",
+  "range": [1,2,1,13],
+  "message": "area.left is a record label never used to read a value",
+  "annotate": { "line": 1, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/picture-editor/PictureScale.res",
+  "range": [2,2,2,12],
+  "message": "area.top is a record label never used to read a value",
+  "annotate": { "line": 2, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/picture-editor/PictureScale.res",
+  "range": [3,2,3,14],
+  "message": "area.width is a record label never used to read a value",
+  "annotate": { "line": 3, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/picture-editor/PictureScale.res",
+  "range": [4,2,4,15],
+  "message": "area.height is a record label never used to read a value",
+  "annotate": { "line": 4, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/picture-editor/PictureScale.res",
+  "range": [21,2,23,150],
+  "message": "Observer.onUpdateMainAreaInContraction is never used",
+  "annotate": { "line": 21, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/picture-editor/PictureScale.res",
+  "range": [25,2,27,131],
+  "message": "Observer.fireUpdateMainAreaInContraction is never used",
+  "annotate": { "line": 25, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/picture-editor/PictureScale.res",
+  "range": [29,2,33,229],
+  "message": "Observer.onUpdateMainAreaInPictureScale is never used",
+  "annotate": { "line": 29, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/picture-editor/PictureScale.res",
+  "range": [35,2,37,169],
+  "message": "Observer.fireUpdateMainAreaInPictureScale is never used",
+  "annotate": { "line": 35, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/react-color/ReactColor__SketchPicker.res",
+  "range": [2,2,2,8],
+  "message": "rgb.r is a record label never used to read a value",
+  "annotate": { "line": 2, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/react-color/ReactColor__SketchPicker.res",
+  "range": [3,2,3,8],
+  "message": "rgb.g is a record label never used to read a value",
+  "annotate": { "line": 3, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/react-color/ReactColor__SketchPicker.res",
+  "range": [4,2,4,8],
+  "message": "rgb.b is a record label never used to read a value",
+  "annotate": { "line": 4, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/react-color/ReactColor__SketchPicker.res",
+  "range": [5,2,5,10],
+  "message": "rgb.a is a record label never used to read a value",
+  "annotate": { "line": 5, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/react-color/ReactColor__SketchPicker.res",
+  "range": [8,2,8,8],
+  "message": "hsl.h is a record label never used to read a value",
+  "annotate": { "line": 8, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/react-color/ReactColor__SketchPicker.res",
+  "range": [9,2,9,8],
+  "message": "hsl.s is a record label never used to read a value",
+  "annotate": { "line": 9, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/react-color/ReactColor__SketchPicker.res",
+  "range": [10,2,10,10],
+  "message": "hsl.l is a record label never used to read a value",
+  "annotate": { "line": 10, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/react-color/ReactColor__SketchPicker.res",
+  "range": [11,2,11,10],
+  "message": "hsl.a is a record label never used to read a value",
+  "annotate": { "line": 11, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/react-color/ReactColor__SketchPicker.res",
+  "range": [15,2,15,10],
+  "message": "color.rgb is a record label never used to read a value",
+  "annotate": { "line": 15, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/react-color/ReactColor__SketchPicker.res",
+  "range": [16,2,16,10],
+  "message": "color.hsl is a record label never used to read a value",
+  "annotate": { "line": 16, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/screen-recorder/ScreenRecorder.res",
+  "range": [29,4,29,46],
+  "message": "Recording._toGifCursor is never used",
+  "annotate": { "line": 29, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/screen-recorder/ScreenRecorder.res",
+  "range": [37,4,42,188],
+  "message": "Recording._muteVideo is never used",
+  "annotate": { "line": 37, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/screen-recorder/ScreenRecorder.res",
+  "range": [160,4,176,483],
+  "message": "Recording._toGif is never used",
+  "annotate": { "line": 160, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/screen-recorder/ScreenRecorder.res",
+  "range": [187,4,207,637],
+  "message": "Recording._checkToUseCutter is never used",
+  "annotate": { "line": 187, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/screen-recorder/ScreenRecorder.res",
+  "range": [777,2,779,76],
+  "message": "_onCloseVideoEditor is never used",
+  "annotate": { "line": 777, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/screen-recorder/ScreenRecorder__Editor.res",
+  "range": [3,2,3,21],
+  "message": "frame.canvas is a record label never used to read a value",
+  "annotate": { "line": 3, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/screen-recorder/ScreenRecorder__Editor.res",
+  "range": [4,2,4,12],
+  "message": "frame.id is a record label never used to read a value",
+  "annotate": { "line": 4, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/screen-recorder/ScreenRecorder__Editor.res",
+  "range": [8,22,8,29],
+  "message": "CutBar.cutPadStatus.MouseUp is a variant case which is never constructed",
+  "annotate": { "line": 8, "character": 22, "text": "| @dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/screen-recorder/ScreenRecorder__Editor.res",
+  "range": [8,32,8,41],
+  "message": "CutBar.cutPadStatus.MouseDown is a variant case which is never constructed",
+  "annotate": { "line": 8, "character": 32, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/screen-recorder/ScreenRecorder__Editor.res",
+  "range": [370,0,866,25444],
+  "message": "make is never used",
+  "annotate": { "line": 370, "character": 0, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/screen-recorder/ScreenRecorder__Observer.res",
+  "range": [4,2,4,33],
+  "message": "ScreenRecorder.setVideoSrc is never used",
+  "annotate": { "line": 4, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/screen-recorder/ScreenRecorder__Observer.res",
+  "range": [6,2,8,119],
+  "message": "ScreenRecorder.onStartRecording is never used",
+  "annotate": { "line": 6, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/screen-recorder/ScreenRecorder__Observer.res",
+  "range": [10,2,12,94],
+  "message": "ScreenRecorder.fireStartRecording is never used",
+  "annotate": { "line": 10, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/screen-recorder/ScreenRecorder__State.res",
+  "range": [3,2,3,40],
+  "message": "screenRecorderState.stream is a record label never used to read a value",
+  "annotate": { "line": 3, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/screen-recorder/ScreenRecorder__State.res",
+  "range": [4,2,4,34],
+  "message": "screenRecorderState.recordingStatus is a record label never used to read a value",
+  "annotate": { "line": 4, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/screen-recorder/ScreenRecorder__State.res",
+  "range": [5,2,5,19],
+  "message": "screenRecorderState.isNewStream is a record label never used to read a value",
+  "annotate": { "line": 5, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/screen-recorder/ScreenRecorder__State.res",
+  "range": [6,2,6,44],
+  "message": "screenRecorderState.recorder is a record label never used to read a value",
+  "annotate": { "line": 6, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/screen-recorder/ScreenRecorder__State.res",
+  "range": [7,2,7,32],
+  "message": "screenRecorderState.chunks is a record label never used to read a value",
+  "annotate": { "line": 7, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/server/Server.res",
+  "range": [11,4,11,14],
+  "message": "Jimp.options.width is a record label never used to read a value",
+  "annotate": { "line": 11, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/server/Server.res",
+  "range": [12,4,12,15],
+  "message": "Jimp.options.height is a record label never used to read a value",
+  "annotate": { "line": 12, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/server/Server.res",
+  "range": [13,4,13,38],
+  "message": "Jimp.options.data is a record label never used to read a value",
+  "annotate": { "line": 13, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/server/Server.res",
+  "range": [50,6,50,38],
+  "message": "Nodejs.Fs.writeFileOptions.encoding is a record label never used to read a value",
+  "annotate": { "line": 50, "character": 6, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/server/Server.res",
+  "range": [51,6,51,16],
+  "message": "Nodejs.Fs.writeFileOptions.mode is a record label never used to read a value",
+  "annotate": { "line": 51, "character": 6, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/server/Server.res",
+  "range": [52,6,52,19],
+  "message": "Nodejs.Fs.writeFileOptions.flag is a record label never used to read a value",
+  "annotate": { "line": 52, "character": 6, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/server/Server.res",
+  "range": [61,16,61,25],
+  "message": "Nodejs.Fs.Stats.t.size is a record label never used to read a value",
+  "annotate": { "line": 61, "character": 16, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/server/Server.res",
+  "range": [84,4,84,13],
+  "message": "Gif.t.size is a record label never used to read a value",
+  "annotate": { "line": 84, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/server/Server.res",
+  "range": [222,22,222,35],
+  "message": "Express.jsonOptions.limit is a record label never used to read a value",
+  "annotate": { "line": 222, "character": 22, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/server/Server.res",
+  "range": [224,28,224,42],
+  "message": "Express.urlencodedOptions.extended is a record label never used to read a value",
+  "annotate": { "line": 224, "character": 28, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/server/Server.res",
+  "range": [224,44,224,58],
+  "message": "Express.urlencodedOptions.limit is a record label never used to read a value",
+  "annotate": { "line": 224, "character": 44, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/server/Server.res",
+  "range": [228,20,228,34],
+  "message": "Express.BodyParser.options.limit is a record label never used to read a value",
+  "annotate": { "line": 228, "character": 20, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/server/Server.res",
+  "range": [231,6,231,20],
+  "message": "Express.BodyParser.urlencodedOptions.limit is a record label never used to read a value",
+  "annotate": { "line": 231, "character": 6, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/server/Server.res",
+  "range": [232,6,232,21],
+  "message": "Express.BodyParser.urlencodedOptions.extended is a record label never used to read a value",
+  "annotate": { "line": 232, "character": 6, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/server/Server.res",
+  "range": [233,6,233,25],
+  "message": "Express.BodyParser.urlencodedOptions.parameterLimit is a record label never used to read a value",
+  "annotate": { "line": 233, "character": 6, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/server/Server.res",
+  "range": [271,20,271,36],
+  "message": "Express.Multer.options.storage is a record label never used to read a value",
+  "annotate": { "line": 271, "character": 20, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/server/Server.res",
+  "range": [277,18,277,28],
+  "message": "Next.options.dev is a record label never used to read a value",
+  "annotate": { "line": 277, "character": 18, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/server/Server.res",
+  "range": [357,0,567,6374],
+  "message": "start is never used",
+  "annotate": { "line": 357, "character": 0, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/server/Server__LogExport.res",
+  "range": [226,0,267,1160],
+  "message": "analyseLog is never used",
+  "annotate": { "line": 226, "character": 0, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/server/Server__LogFeedback.res",
+  "range": [2,2,2,20],
+  "message": "VideoToGif.spliter is never used",
+  "annotate": { "line": 2, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/shape/Line.res",
+  "range": [18,0,37,481],
+  "message": "makeFromTwoPoints is never used",
+  "annotate": { "line": 18, "character": 0, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/shape/Point.res",
+  "range": [67,0,69,90],
+  "message": "translate is never used",
+  "annotate": { "line": 67, "character": 0, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/shape/Shape__Array.res",
+  "range": [39,0,47,318],
+  "message": "calculateDegreeFromArray1ToArray2 is never used",
+  "annotate": { "line": 39, "character": 0, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/video-to-gif/VideoToGif.res",
+  "range": [0,0,0,56],
+  "message": "style is never used",
+  "annotate": { "line": 0, "character": 0, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/video-to-gif/VideoToGif__Observer.res",
+  "range": [25,2,27,137],
+  "message": "Material.onSetShowMarkerById is never used",
+  "annotate": { "line": 25, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/video-to-gif/VideoToGif__Observer.res",
+  "range": [29,2,31,124],
+  "message": "Material.fireSetShowMarkerById is never used",
+  "annotate": { "line": 29, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/video-to-gif/VideoToGif__State.res",
+  "range": [11,11,11,16],
+  "message": "FontMeta.t.Black is a variant case which is never constructed",
+  "annotate": { "line": 11, "character": 11, "text": "| @dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/video-to-gif/VideoToGif__State.res",
+  "range": [11,38,11,43],
+  "message": "FontMeta.t.Pixel is a variant case which is never constructed",
+  "annotate": { "line": 11, "character": 38, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/video-to-gif/VideoToGif__State.res",
+  "range": [11,46,11,55],
+  "message": "FontMeta.t.HandWrite is a variant case which is never constructed",
+  "annotate": { "line": 11, "character": 46, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/video-to-gif/VideoToGif__State.res",
+  "range": [78,6,78,16],
+  "message": "State.MasksFontAnimation.frameInVideo.id is a record label never used to read a value",
+  "annotate": { "line": 78, "character": 6, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/video-to-gif/VideoToGif__State.res",
+  "range": [79,6,79,17],
+  "message": "State.MasksFontAnimation.frameInVideo.time is a record label never used to read a value",
+  "annotate": { "line": 79, "character": 6, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/video-to-gif/VideoToGif__State.res",
+  "range": [80,6,80,16],
+  "message": "State.MasksFontAnimation.frameInVideo.delay is a record label never used to read a value",
+  "annotate": { "line": 80, "character": 6, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/video-to-gif/VideoToGif__State.res",
+  "range": [96,6,96,16],
+  "message": "State.MasksFontAnimation.frameByPicture.id is a record label never used to read a value",
+  "annotate": { "line": 96, "character": 6, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/video-to-gif/VideoToGif__State.res",
+  "range": [97,6,97,17],
+  "message": "State.MasksFontAnimation.frameByPicture.src is a record label never used to read a value",
+  "annotate": { "line": 97, "character": 6, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/video-to-gif/VideoToGif__State.res",
+  "range": [98,6,98,34],
+  "message": "State.MasksFontAnimation.frameByPicture.cutCoordinate is a record label never used to read a value",
+  "annotate": { "line": 98, "character": 6, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/video-to-gif/VideoToGif__State.res",
+  "range": [100,17,100,43],
+  "message": "State.MasksFontAnimation.frame.FrameInVideo is a variant case which is never constructed",
+  "annotate": { "line": 100, "character": 17, "text": "| @dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/video-to-gif/VideoToGif__State.res",
+  "range": [100,46,100,76],
+  "message": "State.MasksFontAnimation.frame.FrameByPicture is a variant case which is never constructed",
+  "annotate": { "line": 100, "character": 46, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/video-to-gif/VideoToGif__Utils.res",
+  "range": [6,2,6,57],
+  "message": "settings.timeScanGap is a record label never used to read a value",
+  "annotate": { "line": 6, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/video-to-gif/VideoToGif__Utils.res",
+  "range": [7,2,7,46],
+  "message": "settings.timeRange is a record label never used to read a value",
+  "annotate": { "line": 7, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/video-to-gif/VideoToGif__Utils.res",
+  "range": [19,4,21,67],
+  "message": "IdColorMap.Color.cmp is never used",
+  "annotate": { "line": 19, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/video-to-gif/VideoToGif__Utils.res",
+  "range": [23,4,27,149],
+  "message": "IdColorMap.Color.isSameColor is never used",
+  "annotate": { "line": 23, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/video-to-gif/VideoToGif__Utils.res",
+  "range": [46,4,49,159],
+  "message": "IdColorMap.Color.toRgbString is never used",
+  "annotate": { "line": 46, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/video-to-gif/VideoToGif__Utils.res",
+  "range": [78,2,80,98],
+  "message": "IdColorMap.getColorById is never used",
+  "annotate": { "line": 78, "character": 2, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/video-to-gif/components/VideoToGif__CanvasUtils.res",
+  "range": [3,0,41,1220],
+  "message": "drawCanvasWithCoordinateAndRotate is never used",
+  "annotate": { "line": 3, "character": 0, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/video-to-gif/components/VideoToGif__Editor.res",
+  "range": [1,29,1,41],
+  "message": "timeScanGapFormProps.scanGap is a record label never used to read a value",
+  "annotate": { "line": 1, "character": 29, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/video-to-gif/components/VideoToGif__Editor.res",
+  "range": [2,32,2,42],
+  "message": "exportGifWidthFormProps.width is a record label never used to read a value",
+  "annotate": { "line": 2, "character": 32, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/video-to-gif/components/VideoToGif__TimeRangeChoose.res",
+  "range": [0,0,0,61],
+  "message": "style is never used",
+  "annotate": { "line": 0, "character": 0, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/video-to-gif/components/VideoToGif__TimeRangeChoose.res",
+  "range": [18,4,18,37],
+  "message": "FrameList.frame.data is a record label never used to read a value",
+  "annotate": { "line": 18, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/video-to-gif/components/VideoToGif__TimeRangeChoose.res",
+  "range": [19,4,19,10],
+  "message": "FrameList.frame.w is a record label never used to read a value",
+  "annotate": { "line": 19, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Type",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/video-to-gif/components/VideoToGif__TimeRangeChoose.res",
+  "range": [20,4,20,10],
+  "message": "FrameList.frame.h is a record label never used to read a value",
+  "annotate": { "line": 20, "character": 4, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/xorpay/XorPay__Base.res",
+  "range": [19,0,23,262],
+  "message": "createOrderId is never used",
+  "annotate": { "line": 19, "character": 0, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/xorpay/XorPay__Client.res",
+  "range": [1,0,11,400],
+  "message": "callToGetAliPayQrCode is never used",
+  "annotate": { "line": 1, "character": 0, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/xorpay/XorPay__Server.res",
+  "range": [1,0,29,793],
+  "message": "callToGetAliPayQrCode is never used",
+  "annotate": { "line": 1, "character": 0, "text": "@dead ", "action": "Suppress dead code warning"}
+},
+{
+  "name": "Warning Dead Value",
+  "kind": "warning",
+  "file": "/home/ming/projects/mng-gif-maker-v6/res/xorpay/XorPay__Server.res",
+  "range": [31,0,44,320],
+  "message": "getOrderStatus is never used",
+  "annotate": { "line": 31, "character": 0, "text": "@dead ", "action": "Suppress dead code warning"}
+}
+]
